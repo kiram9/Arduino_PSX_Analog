@@ -1,0 +1,72 @@
+##########################################################################
+#    PSX Controller Decoder Library (keywords.txt)
+#	Written by: Kieran Levin Mar 8th, 2009
+#	Based upon the work by Kevin Ahrendt June 22nd, 2008
+#
+#	Controller protocol implemented using Andrew J McCubbin's analysis.
+#	http://www.gamesx.com/controldata/psxcont/psxcont.htm
+#	
+#	Shift command is based on tutorial examples for ShiftIn and ShiftOut
+#	functions both written by Carlyn Maw and Tom Igoe
+#	http://www.arduino.cc/en/Tutorial/ShiftIn
+#	http://www.arduino.cc/en/Tutorial/ShiftOut
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+##########################################################################
+
+
+##########################################################################
+# Datatypes (KEYWORD1)
+##########################################################################
+
+Psx	KEYWORD1
+
+##########################################################################
+# Methods and Functions (KEYWORD2)
+##########################################################################
+
+
+setupPins	KEYWORD2
+poll	KEYWORD2
+initcontroller KEYWORD2
+Motorsmall	KEYWORD2
+Motorlarge	KEYWORD2
+Controller_mode	KEYWORD2
+digital_buttons	KEYWORD2
+Right_x		KEYWORD2
+Right_y		KEYWORD2
+Left_x		KEYWORD2
+Left_y		KEYWORD2
+##########################################################################
+# Constants (LITERAL1)
+##########################################################################
+
+psxLeft	LITERAL1
+psxDown	LITERAL1
+psxRight	LITERAL1
+psxUP	LITERAL1
+psxStrt	LITERAL1
+psxSlct	LITERAL1
+psxSqu	LITERAL1
+psxX	LITERAL1
+psxO	LITERAL1
+psxTri	LITERAL1
+psxR1	LITERAL1
+psxL1	LITERAL1
+psxR2	LITERAL1
+psxL2	LITERAL1
+psxJoyL LITERAL1
+psxJoyR LITERAL1
+psxAnalog	LITERAL1
+psxDigital	LITERAL1
